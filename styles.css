@@ -106,3 +106,35 @@ h2 {
     font-size: 1.5em;
     margin-bottom: 0.5em;
 }
+.timeline-box {
+    background-color: #ebe4c5;
+    color: #5b5b5b;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.timeline-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline-box li {
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.timeline-box li:last-child {
+    border-bottom: none;
+}
+
+.timeline-box li::before {
+    content: "•";
+    color: #a31515;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
